@@ -1,0 +1,75 @@
+.vulkan-inner-wrapper {
+  padding-top: 200px;
+  color: $white;
+  text-align: center;
+  h1 {
+    font-weight: 300;
+    padding-bottom: 30px;
+    font-size: 60px;
+  }
+  p {
+    font-size: 16px;
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 100px;
+  }
+  .left-right-products {
+    display: flex;
+    background-color: rgba(21, 21, 21, 1);
+
+    .left-product-handler {
+      width: 50%;
+    }
+
+    .left-product {
+      width: 100%;
+      text-align: left;
+      display: flex;
+      box-sizing: border-box;
+      min-height: 700px;
+      .left-product-text {
+        justify-content: center;
+        margin-top: -2px;
+        margin-bottom: -2px;
+        padding-top: 20px;
+        padding-left: 80px;
+        padding-bottom: 20px;
+        padding-right: 80px;
+        position: relative;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex: 1 1 auto;
+      }
+      h1,
+      p {
+        max-width: 500px;
+        margin: auto;
+        padding: 0;
+        margin: 0;
+      }
+      h1 {
+        font-size: 30px;
+        font-weight: 600;
+        padding-bottom: 10px;
+      }
+      p {
+        color: $light-gray;
+        line-height: 27px;
+      }
+    }
+    .right-product {
+      width: 50%;
+      &.vulkan-procesor {
+        background-image: url(https://i.shgcdn.com/1a5d9c3f-da75-4ce8-b0a4-315d38f23130/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+      &.hold-keyboard {
+        background-image: url(https://i.shgcdn.com/e5f7518b-ba0a-4c49-8289-4f0bfe14acd9/-/format/auto/-/preview/3000x3000/-/quality/lighter/);
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
